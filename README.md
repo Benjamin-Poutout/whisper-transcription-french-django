@@ -11,11 +11,9 @@ Ce projet implémente un service de transcription en temps réel en utilisant le
 
 ## Visualisation :
 
-Voici un projet génial.
+Voici ce que vous devriez voir une fois sur http://127.0.0.1:8000/.
 
-![Mon image](static/background.jpeg)
-
-Description de l'image ci-dessus.
+![Mon image](static/exemple.png)
 
 ## Prérequis
 
