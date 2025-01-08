@@ -9,6 +9,14 @@ Ce projet implémente un service de transcription en temps réel en utilisant le
 - Communication en temps réel au microphone intégré du naviagateur avec ASGI et Websocket.
 - Interface simple pour démarrer une transcription et récupérer les résultats
 
+## Visualisation :
+
+Voici un projet génial.
+
+![Mon image](static/background.jpeg)
+
+Description de l'image ci-dessus.
+
 ## Prérequis
 
 Avant de commencer, vous devez installer et configurer les éléments suivants :
