@@ -1,11 +1,12 @@
 # Projet Django - Transcription en Temps Réel avec Whisper
 
-Ce projet implémente un service de transcription en temps réel en utilisant le modèle Whisper d'OpenAI. Il permet de transcrire des fichiers audio en texte en temps réel, grâce à une API RESTful construite avec Django. L'application est conçue pour être flexible, scalable et facile à intégrer dans des environnements de production.
+Ce projet implémente un service de transcription en temps réel en utilisant le modèle Whisper d'OpenAI. Il permet de transcrire des fichiers audio en texte en temps réel, grâce à une API construite avec Django. L'application est conçue pour être flexible, scalable et facile à intégrer dans des environnements de production.
 
 ## Fonctionnalités
 
 - Transcription en temps réel de fichiers audio
 - Utilisation du modèle Whisper pour la conversion audio -> texte
+- Communication en temps réel au microphone intégré du naviagateur avec ASGI et Websocket.
 - Interface simple pour démarrer une transcription et récupérer les résultats
 
 ## Prérequis
