@@ -69,7 +69,22 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
    Le serveur sera accessible à l'adresse http://127.0.0.1:8000/.
 ## API :
 
-Le projet expose une API pour interagir avec le service de transcription. Vous pouvez envoyer des fichiers audio pour les transcrire en texte.
+Le projet expose une API pour interagir avec le service de transcription en temps réel. Vous pourrez alors enregistrer votre voix et voir la transcription en temps réel s'afficher sur http://127.0.0.1:8000/.
+
+## Contribuer :
+
+Les contributions sont les bienvenues ! Si vous souhaitez contribuer au projet, suivez ces étapes :
+
+1. Forkez ce dépôt
+2. Créez une nouvelle branche (git checkout -b feature-xyz)
+3. Apportez vos modifications
+4. Committez vos changements (git commit -am 'Ajout de nouvelles fonctionnalités')
+5. Poussez vos changements sur votre branche (git push origin feature-xyz)
+6. Ouvrez une pull request
+
+## Auteurs :
+
+Benjamin Poutout et Gabriel Pizzo
 
 
 
