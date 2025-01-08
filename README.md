@@ -29,8 +29,49 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
    cd whisper-transcription-french-django
    ```
 
-2. **Installer les bibliothèques nécesaires** :
+2. **Créez un environnement virtuel** :
+   
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # Sur Windows, utilisez 'venv\Scripts\activate'
+   ```
+
+3. **Installer les bibliothèques nécesaires** :
 
    ```bash
    pip install -r requirements.txt
    ```
+
+4. **Configuration de Whisper** :
+   Le projet utilise le modèle Whisper d'OpenAI pour la transcription. Vous devrez installer et configurer Whisper. Vous pouvez utiliser la version disponible sur Whisper GitHub.
+   Pour installer Whisper, exécutez la commande suivante :
+
+   
+   ```bash
+   pip install git+https://github.com/openai/whisper.git
+   ```
+## Lancer le projet :
+
+1. **Appliquez les migrations de base de données** :
+   
+   Exécutez la commande suivante pour appliquer les migrations de base de données :
+   
+   ```bash
+   python manage.py migrate
+   ```
+2. **Démarrez le serveur Django** :
+
+   Lancez le serveur de développement Django avec la commande suivante :
+
+   ```bash
+   python manage.py runserver
+   ```
+   Le serveur sera accessible à l'adresse http://127.0.0.1:8000/.
+## API :
+
+Le projet expose une API pour interagir avec le service de transcription. Vous pouvez envoyer des fichiers audio pour les transcrire en texte.
+
+
+
+
+   
