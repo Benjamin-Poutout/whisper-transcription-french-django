@@ -28,41 +28,41 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
 
 ## Installation
 
-1. **Clonez le dépôt** :
+   1. **Clonez le dépôt** :
 
-   Clonez ce projet sur votre machine locale en utilisant Git :
-
-   ```bash
-   git clone https://github.com/Benjamin-Poutout/whisper-transcription-french-django.git
-   cd whisper-transcription-french-django
-   ```
-
-2. **Créez un environnement virtuel** :
+      Clonez ce projet sur votre machine locale en utilisant Git :
    
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate  # Sur Windows, utilisez 'venv\Scripts\activate'
-   ```
+      ```bash
+      git clone https://github.com/Benjamin-Poutout/whisper-transcription-french-django.git
+      cd whisper-transcription-french-django
+      ```
 
-3. **Installer les bibliothèques nécesaires** :
+   2. **Créez un environnement virtuel** :
+      
+      ```bash
+      python3 -m venv venv
+      source venv/bin/activate  # Sur Windows, utilisez 'venv\Scripts\activate'
+      ```
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+   3. **Installer les bibliothèques nécesaires** :
 
-4.**Créer votre Docker Image** :
+      ```bash
+      pip install -r requirements.txt
+      ```
 
-   Vérifiez que vous avez docker et docker compose disponible sur votre machine locale.
+   4.**Créer votre Docker Image** :
+
+      Vérifiez que vous avez docker et docker compose disponible sur votre machine locale.
+      
+      ```bash
+      docker --version
+      docker compose version
+      ```
+      Dans le répertoire contenant le Dockerfile, exécutez la commande suivante :
    
-   ```bash
-   docker --version
-   docker compose version
-   ```
-   Dans le répertoire contenant le Dockerfile, exécutez la commande suivante :
-
-   ```bash
-   sudo docker build -t my-django-app:latest .
-   ```
+      ```bash
+      sudo docker build -t my-django-app:latest .
+      ```
 
 ## Lancer le projet :
 
