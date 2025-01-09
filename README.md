@@ -23,7 +23,8 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
 - **Django** : Le framework web utilisé pour ce projet.
 - **Whisper** : Le modèle de transcription développé par OpenAI.
 - **Dépendances supplémentaires** : Pour gérer l'audio, la gestion des API et d'autres fonctions.
-- **Docker et Docker-compose** : Pour gérer la création de Docker Image. (https://docs.docker.com/engine/install/ubuntu/ pour installer Docker).
+- **Docker et Docker-compose** : Pour gérer la création de Docker Image. (https://docs.docker.com/engine/install/ubuntu/ pour installer Docker)
+- 
 
 ## Installation
 
@@ -48,6 +49,21 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
    ```bash
    pip install -r requirements.txt
    ```
+
+4.**Créer votre Docker Image** :
+
+   Vérifiez que vous avez docker et docker compose disponible sur votre machine locale.
+   
+   ```bash
+   docker --version
+   docker compose version
+   ```
+   Dans le répertoire contenant le Dockerfile, exécutez la commande suivante :
+
+   ```bash
+   sudo docker build -t my-django-app:latest .
+   ```
+
 ## Lancer le projet :
 
 1. **Appliquez les migrations de base de données** :
