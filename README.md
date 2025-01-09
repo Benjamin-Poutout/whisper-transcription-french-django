@@ -19,7 +19,7 @@ Voici ce que vous devriez voir une fois sur http://127.0.0.1:8000/.
 
 Avant de commencer, vous devez installer et configurer les éléments suivants :
 
-- **Python 3.9+** : Assurez-vous que Python est installé sur votre machine.
+- **Python 3.12** : Assurez-vous que Python est installé sur votre machine.
 - **Django** : Le framework web utilisé pour ce projet.
 - **Whisper** : Le modèle de transcription développé par OpenAI.
 - **Dépendances supplémentaires** : Pour gérer l'audio, la gestion des API et d'autres fonctions.
