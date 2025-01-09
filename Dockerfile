@@ -19,7 +19,6 @@ COPY . /app/
 # Install dependencies from requirements.txt
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-RUN pip install git+https://github.com/openai/whisper.git
 
 # Expose the port Django will run on (8000)
 EXPOSE 8000
