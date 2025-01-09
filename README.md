@@ -23,6 +23,7 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
 - **Django** : Le framework web utilisé pour ce projet.
 - **Whisper** : Le modèle de transcription développé par OpenAI.
 - **Dépendances supplémentaires** : Pour gérer l'audio, la gestion des API et d'autres fonctions.
+- **Docker et Docker-compose** : Pour gérer la création de Docker Image. (https://docs.docker.com/engine/install/ubuntu/ pour installer Docker).
 
 ## Installation
 
