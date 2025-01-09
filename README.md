@@ -44,12 +44,12 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
       ```
 
    3. **Installer les bibliothèques nécesaires** :
-
+      
       ```bash
       pip install -r requirements.txt
       ```
-
-   4.**Créer votre Docker Image** :
+      
+   4. **Créer votre Docker Image** :
 
       Vérifiez que vous avez docker et docker compose disponible sur votre machine locale.
       
@@ -62,6 +62,7 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
       ```bash
       sudo docker build -t my-django-app:latest .
       ```
+
 
 ## Lancer le projet :
 
