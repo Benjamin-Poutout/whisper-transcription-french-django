@@ -98,7 +98,7 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer au projet, 
 
 ## Auteurs :
 
-Benjamin Poutout et Gabriel Pizzo
+Benjamin Poutout & Gabriel Pizzo
 
 
 
