@@ -47,15 +47,6 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
    ```bash
    pip install -r requirements.txt
    ```
-
-4. **Configuration de Whisper** :
-   Le projet utilise le modèle Whisper d'OpenAI pour la transcription. Vous devrez installer et configurer Whisper. Vous pouvez utiliser la version disponible sur Whisper GitHub.
-   Pour installer Whisper, exécutez la commande suivante :
-
-   
-   ```bash
-   pip install git+https://github.com/openai/whisper.git
-   ```
 ## Lancer le projet :
 
 1. **Appliquez les migrations de base de données** :
