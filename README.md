@@ -11,7 +11,7 @@ Ce projet implémente un service de transcription en temps réel en utilisant le
 
 ## Visualisation :
 
-Voici ce que vous devriez voir une fois sur http://127.0.0.1:8000/.
+Voici ce que vous devriez voir une fois sur http://localhost:8000/.
 
 ![Mon image](static/exemple.png)
 
@@ -80,10 +80,10 @@ Avant de commencer, vous devez installer et configurer les éléments suivants :
    ```bash
    python manage.py runserver
    ```
-   Le serveur sera accessible à l'adresse http://127.0.0.1:8000/.
+   Le serveur sera accessible à l'adresse http://localhost:8000/.
 ## API :
 
-Le projet expose une API pour interagir avec le service de transcription en temps réel. Vous pourrez alors enregistrer votre voix et voir la transcription en temps réel s'afficher sur http://127.0.0.1:8000/.
+Le projet expose une API pour interagir avec le service de transcription en temps réel. Vous pourrez alors enregistrer votre voix et voir la transcription en temps réel s'afficher sur http://localhost:8000/.
 
 ## Contribuer :
 
